@@ -4,12 +4,3 @@ To do so, first we answers the following questions:
 1.	What makes two cities similar?
 2.	Who are the stakeholders of these information?
 3.	What are potential benefits one can have knowing the similarities and dissimilarities among cities? 
-
-
-Description of the data and how it will be used to solve the problem.
-Since our analysis of similarities among cities are based upon the venues around the city thus we decided to use only the foursquare database.
-Data Sources:
-https://api.foursquare.com
-
-We will be using foursquare to study the venues categories to evaluate similarities in Toronto, New York and Paris.  After combining venues we calculate the frequencies of the venues for each city within the radius around 1000 meter. The reference location is city center of each city and venues are captured accordingly.A frequency distribution of the count of the venues are used to access the similarities.
-
