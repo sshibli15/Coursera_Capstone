@@ -7,15 +7,17 @@ individual venues, the count of venue category is found more useful for city to 
 Since our analysis of similarities among cities are based upon the venues around the city thus we decided to use only the 
 foursquare database instead of several other available sources. The major benefit of doing so is that same definition of venues, 
 venues categories, location, etc. definition irrespective of the indiviual cities are used. The foursquare data is most comprehensive 
-database for geographical locations with plenty of attributes that could be used for any kind of location based study. 
+database for geographical locations with plenty of attributes that could be used for any kind of location based study. The Foursqare 
+offers various endpoints, endpoints groups that can be used in venues, users related searching, exploring, trending, and etc.
 
 Data Sources:
 https://api.foursquare.com
 
-We will be using foursquare to study the venues categories to evaluate similarities in Toronto, New York and Paris.  
-After combining venues we calculate the frequencies of the venues categories for each city within the radius around 1000 meter. 
-The reference location is city center of each city and venues are captured accordingly. A frequency distribution of the count of the venues 
-are used to access the similarities.
+We may use various endpoints groups but we will be using foursquare endpoint for venue exploration only to study the venues 
+categories to evaluate similarities in Toronto, New York and Paris. After combining venues we calculate the frequencies of the 
+venues categories for each city within the radius around 1000 meter. The reference location is city center of each city and venues 
+are captured accordingly. A frequency distribution of the count of the venues are used to access the similarities. The closer the 
+frequency venue categories the similar the cities are to each other.  
 
 
 
