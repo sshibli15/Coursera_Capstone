@@ -1,5 +1,23 @@
-Since our analysis of similarities among cities are based upon the venues around the city thus we decided to use only the foursquare database.
+Description of Data and its usage in resolution:
+
+We will explore and evaluate similarities and dissimilarities among Toronto, New York and Paris. There are various approaches 
+that could be followed, one of them is studying the venues around the cities within the radius of 1000 meters. Instead of studting
+individual venues, the count of venue category is found more useful for city to city comparasion. 
+
+Since our analysis of similarities among cities are based upon the venues around the city thus we decided to use only the 
+foursquare database instead of several other available sources. The major benefit of doing so is that same definition of venues, 
+venues categories, location, etc. definition irrespective of the indiviual cities are used. The foursquare data is most comprehensive 
+database for geographical locations with plenty of attributes that could be used for any kind of location based study. 
+
 Data Sources:
 https://api.foursquare.com
 
-We will be using foursquare to study the venues categories to evaluate similarities in Toronto, New York and Paris.  After combining venues we calculate the frequencies of the venues for each city within the radius around 1000 meter. The reference location is city center of each city and venues are captured accordingly. A frequency distribution of the count of the venues are used to access the similarities.
+We will be using foursquare to study the venues categories to evaluate similarities in Toronto, New York and Paris.  
+After combining venues we calculate the frequencies of the venues categories for each city within the radius around 1000 meter. 
+The reference location is city center of each city and venues are captured accordingly. A frequency distribution of the count of the venues 
+are used to access the similarities.
+
+
+
+
+
